@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Questionable Code Audit Toolbox
+Bundle-SymbolicName: com.qc.audit.analysis;singleton:=true
+Bundle-Version: 0.28.2.qualifier
+Bundle-Vendor: Questionable Code
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: 
+ org.eclipse.debug.ui,
+ org.eclipse.ui;visibility:=reexport,
+ org.eclipse.core.runtime;visibility:=reexport,
+ org.eclipse.core.resources;visibility:=reexport,
+ com.ensoftcorp.atlas.java.core;bundle-version="0.28.2";visibility:=reexport,
+ com.ensoftcorp.atlas.java.ui;bundle-version="0.28.2";visibility:=reexport,
+ com.ensoftcorp.atlas.core;bundle-version="0.28.2";visibility:=reexport,
+ com.ensoftcorp.atlas.jimple.ui;bundle-version="1.0.0";visibility:=reexport,
+ com.ensoftcorp.open.android.essentials;bundle-version="0.28.2";visibility:=reexport
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
