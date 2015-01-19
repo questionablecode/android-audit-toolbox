@@ -16,6 +16,6 @@ Require-Bundle:
  com.ensoftcorp.atlas.jimple.ui;bundle-version="1.0.0";visibility:=reexport,
  com.ensoftcorp.open.android.essentials;bundle-version="0.28.2";visibility:=reexport,
  com.ensoftcorp.open.toolbox.commons;bundle-version="0.28.2";visibility:=reexport,
- com.qc.adlib.toolbox;bundle-version="0.28.2";visibility:=reexport
+ com.qc.libanalysis.toolbox;bundle-version="0.28.2";visibility:=reexport
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .
