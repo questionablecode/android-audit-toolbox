@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+<extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Atlas Toolbox"
+            id="Atlas Toolbox">
+      </category>
+      <view
+            category="Atlas Toolbox"
+            class="com.qc.audit.views.AppPermissionUsageView"
+            icon="icons/main-icon.gif"
+            id="com.qc.audit.views.AppPermissionUsageView"
+            name="Permission Usage (excludes libraries)">
+      </view>
+   </extension>
+   
+</plugin>

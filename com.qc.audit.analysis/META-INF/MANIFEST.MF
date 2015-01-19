@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Questionable Code Audit Toolbox
+Bundle-Name: Android Audit Toolbox
 Bundle-SymbolicName: com.qc.audit.analysis;singleton:=true
 Bundle-Version: 0.28.2.qualifier
 Bundle-Vendor: Questionable Code
