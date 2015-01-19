@@ -9,6 +9,10 @@ import com.ensoftcorp.atlas.java.core.script.CommonQueries.TraversalDirection;
 import com.ensoftcorp.open.toolbox.commons.SetDefinitions;
 import com.ensoftcorp.open.toolbox.commons.analysis.Analyzer;
 
+/**
+ * Analyzes uses of Java class loaders in an application
+ * @author Ben Holland
+ */
 public class ClassLoaderUsage extends Analyzer {
 
 	@Override

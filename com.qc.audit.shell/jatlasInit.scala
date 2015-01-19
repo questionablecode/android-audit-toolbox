@@ -22,6 +22,10 @@ import com.ensoftcorp.atlas.core.db.graph.Graph
 // color for graph highlighting
 import java.awt.Color
 
+// toolbox commons
+import com.ensoftcorp.open.toolbox.commons._
+import com.ensoftcorp.open.toolbox.commons.SetDefinitions._
+
 // android essentials
 import com.ensoftcorp.open.android.essentials._
 import com.ensoftcorp.open.android.essentials.permissions._
