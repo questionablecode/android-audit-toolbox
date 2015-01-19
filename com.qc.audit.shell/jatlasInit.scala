@@ -11,7 +11,10 @@ import com.ensoftcorp.atlas.java.core.query.Q
 import com.ensoftcorp.atlas.java.core.query.Attr
 import com.ensoftcorp.atlas.java.core.query.Attr.Edge
 import com.ensoftcorp.atlas.java.core.query.Attr.Node
+import com.ensoftcorp.atlas.java.core.script.Common
 import com.ensoftcorp.atlas.java.core.script.Common._
+import com.ensoftcorp.atlas.java.core.script.CommonQueries
+import com.ensoftcorp.atlas.java.core.script.CommonQueries._
 import com.ensoftcorp.atlas.java.interpreter.lib.Common._
 import com.ensoftcorp.atlas.core.db.Accuracy._
 import com.ensoftcorp.atlas.core.db.graph.Graph
@@ -24,5 +27,5 @@ import com.ensoftcorp.open.android.essentials._
 import com.ensoftcorp.open.android.essentials.permissions._
 import com.ensoftcorp.open.android.essentials.permissions.mappings._
 
-// toolbox.analysis project
-import com.qc.audit.analysis._
+// analyzers
+import com.qc.audit.analyzers._
