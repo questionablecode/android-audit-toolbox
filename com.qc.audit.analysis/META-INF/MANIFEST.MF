@@ -10,12 +10,15 @@ Require-Bundle:
  org.eclipse.ui;visibility:=reexport,
  org.eclipse.core.runtime;visibility:=reexport,
  org.eclipse.core.resources;visibility:=reexport,
+ org.eclipse.jdt.core;bundle-version="3.9.2";visibility:=reexport,
  com.ensoftcorp.atlas.java.core;bundle-version="0.28.2";visibility:=reexport,
  com.ensoftcorp.atlas.java.ui;bundle-version="0.28.2";visibility:=reexport,
  com.ensoftcorp.atlas.core;bundle-version="0.28.2";visibility:=reexport,
  com.ensoftcorp.atlas.jimple.ui;bundle-version="1.0.0";visibility:=reexport,
  com.ensoftcorp.open.android.essentials;bundle-version="0.28.2";visibility:=reexport,
  com.ensoftcorp.open.toolbox.commons;bundle-version="0.28.2";visibility:=reexport,
- com.qc.libanalysis.toolbox;bundle-version="0.28.2";visibility:=reexport
+ com.qc.libanalysis.toolbox;bundle-version="0.28.2";visibility:=reexport,
+ com.googlecode.dex2jar;bundle-version="0.9.16";visibility:=reexport,
+ net.sourceforge.jode;bundle-version="1.1.2";visibility:=reexport
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .
