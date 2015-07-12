@@ -13,8 +13,9 @@ The Android Audit Toolbox is a collection of analyzers for auditing Android appl
  - [Eclipse Plugin Development Tools](http://download.eclipse.org/eclipse/updates/4.4)
  - [https://ensoftcorp.github.io/toolbox-commons](https://ensoftcorp.github.io/toolbox-commons)
  - [https://ensoftcorp.github.io/android-essentials-toolbox](https://ensoftcorp.github.io/android-essentials-toolbox)
+ - [Eclipse Android Development Tools](https://developer.android.com/sdk/installing/installing-adt.html), make sure to download the [Android SDK](https://developer.android.com/sdk) and install the platform jars for each API version. 
 
-3) Fork and clone the Toobox repository.
+3) Clone the Toobox repository.
 
 `git clone https://github.com/questionablecode/android-audit-toolbox.git`
 
