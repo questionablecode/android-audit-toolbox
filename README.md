@@ -5,27 +5,30 @@ The Android Audit Toolbox is a collection of analyzers for auditing Android appl
 
 # Setup
 
-1) Install Atlas with ABP.  See [http://www.ensoftcorp.com/atlas](http://www.ensoftcorp.com/atlas/).
+0) Download and extract [Eclipse Luna IDE for Java Developers](https://eclipse.org/downloads/packages/release/Luna/SR2) for your Operating System.
 
-2) Install dependencies.  The Toolbox has a dependency on the `org.apache.commons.io` library.  Install the Apache commons library as a plugin from the [http://www.eclipse.org/orbit/](http://www.eclipse.org/orbit/) repos by navigating to `Help`->`Install New Software...` and entering "[http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/](http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/)" in the `Work with:` field.  Expand the `All Orbit Bundles` category and select `Apache Commons IO` and then press `Next` and `Finish`.  You will need to restart Eclipse.
+1) Install Atlas Standard or Professional (not Lite).  When installing Atlas make sure to include the Atlas experimental features.  See [http://www.ensoftcorp.com/atlas](http://www.ensoftcorp.com/atlas/).
 
-Note: If your toolbox project has other dependencies you may need to install additional plugins at this time.
+2) Install dependencies.  
+ - [Eclipse Plugin Development Tools](http://download.eclipse.org/eclipse/updates/4.4)
+ - [https://ensoftcorp.github.io/toolbox-commons](https://ensoftcorp.github.io/toolbox-commons)
+ - [https://ensoftcorp.github.io/android-essentials-toolbox](https://ensoftcorp.github.io/android-essentials-toolbox)
 
 3) Fork and clone the Toobox repository.
 
 `git clone https://github.com/questionablecode/android-audit-toolbox.git`
 
-4) Import the `toolbox.audit.analysis` and `toolbox.audit.interpreter` projects into your Eclipse workspace.
+4) Import the `toolbox.audit.analysis` and `toolbox.audit.shell` projects into your Eclipse workspace.
 
 # Using the Toolbox
 
-## Interpreter Project
+## Shell Project
 
-To use the analysis toolbox interactively make sure you have both the `toolbox.audit.analysis` and `toolbox.audit.interpreter` projects imported into the Eclipse workspace.  Then navigate to `Window`->`Show View`->`Other`->`Atlas`->`Atlas Interpreter`.  Select the `toolbox.audit.interpreter` project from the interpreters list and press `OK`.
+To use the analysis toolbox interactively make sure you have both the `toolbox.audit.analysis` and `toolbox.audit.shell` projects imported into the Eclipse workspace.  Then navigate to `Window`->`Show View`->`Other`->`Atlas`->`Atlas Shell`.  Select the `toolbox.audit.shell` project from the shell project list and press `OK`.
 
-From the Interpeter you can run any Java scripts in the `toolbox.audit.analysis` project.  To automatically import packages or classes on the Interpreter edit the `jatlasInit.scala` file.
+From the Atlas Shell you can run any Java analysis code in the `toolbox.audit.analysis` project.  To automatically import packages or classes on the Shell edit the `atlasInit.scala` file.
 
-To open an interactive Smart View right click on the `toolbox.audit.interpreter` project and navigate to `Atlas`->`Open Atlas Smart View`.  Drag the Smart View window to your preferred location in the Eclipse IDE.  In the Smart View window click on the down arror and navigate to `Script` and then select the Smart View you'd like to display.
+To open an interactive Smart View right click on the `toolbox.audit.shell` project and navigate to `Atlas`->`Open Atlas Smart View`.  Drag the Smart View window to your preferred location in the Eclipse IDE.  In the Smart View window click on the down arror and navigate to `Script` and then select the Smart View you'd like to display.
 
 ## Headless Mode
 
