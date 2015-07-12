@@ -1,11 +1,11 @@
 package com.qc.audit.analyzers;
 
-import com.ensoftcorp.atlas.java.core.query.Attr.Edge;
-import com.ensoftcorp.atlas.java.core.query.Attr.Node;
-import com.ensoftcorp.atlas.java.core.query.Q;
+import com.ensoftcorp.atlas.core.query.Attr.Edge;
+import com.ensoftcorp.atlas.core.query.Attr.Node;
+import com.ensoftcorp.atlas.core.query.Q;
+import com.ensoftcorp.atlas.core.script.CommonQueries.TraversalDirection;
 import com.ensoftcorp.atlas.java.core.script.Common;
 import com.ensoftcorp.atlas.java.core.script.CommonQueries;
-import com.ensoftcorp.atlas.java.core.script.CommonQueries.TraversalDirection;
 import com.ensoftcorp.open.toolbox.commons.SetDefinitions;
 import com.ensoftcorp.open.toolbox.commons.analysis.Analyzer;
 

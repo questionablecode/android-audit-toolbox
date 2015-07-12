@@ -1,21 +1,16 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Questionable Code Audit Shell
+Bundle-Name: Audit Shell
 Bundle-SymbolicName: com.qc.audit.shell
-Bundle-Version: 0.28.2.qualifier
+Bundle-Version: 2.2.6.qualifier
 Bundle-Vendor: Questionable Code
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Require-Bundle: 
- org.eclipse.core.runtime,
- org.scala-ide.scala.library,
- org.scala-ide.sbt.full.library,
- org.scala-ide.scala.compiler,
- org.scala-ide.sdt.aspects,
- org.scala-ide.sdt.core,
- org.scala-refactoring.library,
- com.ensoftcorp.atlas.scalaide;bundle-version="0.28.2",
- com.ensoftcorp.atlas.core;bundle-version="0.28.2",
- com.ensoftcorp.atlas.java.core;bundle-version="0.28.2",
- com.ensoftcorp.atlas.java.ui;bundle-version="0.28.2",
- com.ensoftcorp.atlas.java.interpreter;bundle-version="0.28.2",
- com.qc.audit.analysis;bundle-version="0.28.2"
+Require-Bundle: org.scala-lang.scala-library,
+ org.eclipse.ui;bundle-version="3.106.1",
+ org.eclipse.jdt.launching;bundle-version="3.7.102",
+ org.eclipse.core.runtime;bundle-version="3.10.0";visibility:=reexport,
+ com.ensoftcorp.abp;bundle-version="2.2.6",
+ com.ensoftcorp.atlas.core;bundle-version="2.2.6",
+ com.ensoftcorp.atlas.ui.shell;bundle-version="2.2.6",
+ com.ensoftcorp.atlas.java.core;bundle-version="2.2.6",
+ com.qc.audit.analysis;bundle-version="2.2.6"

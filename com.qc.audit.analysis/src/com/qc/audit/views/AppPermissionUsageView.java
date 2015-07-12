@@ -1,7 +1,7 @@
 package com.qc.audit.views;
 
-import com.ensoftcorp.atlas.java.core.query.Attr.Node;
-import com.ensoftcorp.atlas.java.core.query.Q;
+import com.ensoftcorp.atlas.core.query.Attr.Node;
+import com.ensoftcorp.atlas.core.query.Q;
 import com.ensoftcorp.open.android.essentials.views.PermissionUsageView;
 import com.qc.adlib.Libraries;
 
