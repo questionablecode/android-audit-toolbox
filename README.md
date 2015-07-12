@@ -19,11 +19,11 @@ The Android Audit Toolbox is a collection of analyzers for auditing Android appl
 
 # Using the Toolbox
 
-## Interpreter Project
+## Shell Project
 
-To use the analysis toolbox interactively make sure you have both the `toolbox.audit.analysis` and `toolbox.audit.shell` projects imported into the Eclipse workspace.  Then navigate to `Window`->`Show View`->`Other`->`Atlas`->`Atlas Shell`.  Select the `toolbox.audit.shell` project from the interpreters list and press `OK`.
+To use the analysis toolbox interactively make sure you have both the `toolbox.audit.analysis` and `toolbox.audit.shell` projects imported into the Eclipse workspace.  Then navigate to `Window`->`Show View`->`Other`->`Atlas`->`Atlas Shell`.  Select the `toolbox.audit.shell` project from the shell project list and press `OK`.
 
-From the Interpeter you can run any Java scripts in the `toolbox.audit.analysis` project.  To automatically import packages or classes on the Shell edit the `atlasInit.scala` file.
+From the Atlas Shell you can run any Java analysis code in the `toolbox.audit.analysis` project.  To automatically import packages or classes on the Shell edit the `atlasInit.scala` file.
 
 To open an interactive Smart View right click on the `toolbox.audit.shell` project and navigate to `Atlas`->`Open Atlas Smart View`.  Drag the Smart View window to your preferred location in the Eclipse IDE.  In the Smart View window click on the down arror and navigate to `Script` and then select the Smart View you'd like to display.
 
