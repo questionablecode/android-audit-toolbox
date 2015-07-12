@@ -5,9 +5,12 @@ The Android Audit Toolbox is a collection of analyzers for auditing Android appl
 
 # Setup
 
-1) Install Atlas Standard or Professional with the Atlas experimental features.  See [http://www.ensoftcorp.com/atlas](http://www.ensoftcorp.com/atlas/).
+0) Download and extract [Eclipse Luna IDE for Java Developers](https://eclipse.org/downloads/packages/release/Luna/SR2) for your Operating System.
+
+1) Install Atlas Standard or Professional (not Lite).  When installing Atlas make sure to include the Atlas experimental features.  See [http://www.ensoftcorp.com/atlas](http://www.ensoftcorp.com/atlas/).
 
 2) Install dependencies.  
+ - [Eclipse Plugin Development Tools](http://download.eclipse.org/eclipse/updates/4.4)
  - [https://ensoftcorp.github.io/toolbox-commons](https://ensoftcorp.github.io/toolbox-commons)
  - [https://ensoftcorp.github.io/android-essentials-toolbox](https://ensoftcorp.github.io/android-essentials-toolbox)
 
