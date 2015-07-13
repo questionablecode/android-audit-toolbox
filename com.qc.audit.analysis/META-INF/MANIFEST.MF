@@ -17,6 +17,7 @@ Require-Bundle:
  com.ensoftcorp.atlas.jimple.ui;bundle-version="2.2.6";visibility:=reexport,
  com.ensoftcorp.open.android.essentials;bundle-version="2.2.6";visibility:=reexport,
  com.ensoftcorp.open.toolbox.commons;bundle-version="2.2.6";visibility:=reexport,
- com.qc.libanalysis.toolbox;bundle-version="2.2.6";visibility:=reexport
+ com.qc.libanalysis.toolbox;bundle-version="2.2.6";visibility:=reexport,
+ com.googlecode.dex2jar;bundle-version="0.9.16"
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .
